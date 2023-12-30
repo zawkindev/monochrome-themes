@@ -1,0 +1,12 @@
+bspwm
+sxhkd
+polybar
+dmenu
+alacritty
+feh
+acpilight
+xorg-xsetroot
+xorg-init
+picom
+ranger
+pulseaudio

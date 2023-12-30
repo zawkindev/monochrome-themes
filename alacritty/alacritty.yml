@@ -1,0 +1,110 @@
+############################
+## -     colors end     - ##
+############################
+colors:
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#ffffff'
+
+  # Normal colors
+  normal:
+    black:   '#3B4252'
+    red:     '#BF616A'
+    green:   '#A3BE8C'
+    yellow:  '#EBCB8B'
+    blue:    '#81A1C1'
+    magenta: '#B48EAD'
+    cyan:    '#88C0D0'
+    white:   '#E5E9F0'
+
+############################
+## -     colors end     - ##
+############################
+
+############################
+## -       fonts        - ##
+############################
+font:
+  # Normal (roman) font face
+  normal:
+    family: "CodeNewRoman Nerd Font"
+    #style: Regular
+
+  # Bold font face
+  bold:
+    family: "CodeNewRoman Nerd Font"
+    style: Bold
+
+  # Italic font face
+  italic:
+    family: "CodeNewRoman Nerd Font"
+    style: Italic
+
+  # Bold italic font face
+  bold_italic:
+    family: "CodeNewRoman Nerd Font"
+    style: Bold Italic
+
+  # Point size
+  size: 17
+############################
+## -     fonts end      - ##
+############################
+
+############################
+## -     environment    - ##
+############################
+env:
+  TERM: alacritty
+  WINIT_X11_SCALE_FACTOR: '1.0'
+  vblank_mode: '1'
+
+############################
+## -   environment end  - ##
+############################
+
+############################
+##   -     window       - ##
+############################
+window:
+  dimensions:
+    columns: 82
+    lines: 25
+
+  padding:
+    x: 10
+    y: 0
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+  # scrolling
+  history: 10000
+  multiplier: 3
+
+  # Background opacity
+  opacity: 0.9
+############################
+## -     window end     - ##
+############################
+
+
+############################
+## -       cursor       - ##
+############################
+cursor:
+  style:
+    shape: Block
+    blinking: On
+
+  unfocused_hollow: false
+
+############################
+## -     cursor end     - ##
+############################
+
+## Live config reload
+live_config_reload: true
+
