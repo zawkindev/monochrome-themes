@@ -6,7 +6,6 @@ alacritty
 feh
 acpilight
 xorg-xsetroot
-xorg-init
+xorg-xinit
 picom
 ranger
-pulseaudio
