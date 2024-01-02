@@ -12,7 +12,7 @@ while IFS= read -r package; do
     package=$(echo "$package" | xargs)
 
     # Install the package using sudo pacman -S
-    sudo pacman -S "$package" --noconfirm
+    sudo pacman -Sy "$package"
 
     # Check the exit status of the pacman command
     if [ $? -ne 0 ]; then
