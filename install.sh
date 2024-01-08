@@ -12,7 +12,7 @@ while IFS= read -r package; do
     package=$(echo "$package" | xargs)
 
     # Install the package using sudo pacman -S
-    sudo pacman -Sy "$package"
+    sudo pacman -Sy  --noconfirm "$package"
 
     # Check the exit status of the pacman command
     if [ $? -ne 0 ]; then
@@ -54,7 +54,7 @@ for folder in */; do
         fi
     fi
 done
-l
+
 cp ./wallpaper.jpg $configs_dir
 
 echo "Files copied successfully"
