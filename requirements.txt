@@ -4,6 +4,7 @@ polybar
 dmenu
 alacritty
 feh
+flameshot
 acpilight
 xorg-server
 xorg-xsetroot
