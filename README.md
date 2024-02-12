@@ -1,7 +1,7 @@
 # monochrome-configs
 ![""](screenshot.png)
 
-- **OS:** [`Manjaro Linux 'x86_64'`](https://archlinux.org/)
+- **OS:** [`Arch Linux 'x86_64'`](https://archlinux.org/)
 - **Terminal:** [`alacritty`](https://github.com/alacritty/alacritty)
 - **Bar:** [`polybar`](https://github.com/polybar/polybar)
 - **Compositor:** [`picom`](https://github.com/yshui/picom)
