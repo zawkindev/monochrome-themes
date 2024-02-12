@@ -10,10 +10,6 @@ super + Return
 super + d
 	dmenu_run  -p 'search:' -l 5 -sb "#fff" -sf "#010101" -nb "#111111" -nf "#fff" -fn "CodeNewRoman Nerd Font"
 
-# make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
-
 #
 # bspwm hotkeys
 #
@@ -25,6 +21,25 @@ super + shift + {e,r}
 # close and kill
 super + {_,shift + }c
 	bspc node -{c,k}
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+
+
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+
+
 
 # alternate between the tiled and monocle layout
 super + m
@@ -54,9 +69,6 @@ super + ctrl + {m,x,y,z}
 # focus/swap
 #
 
-# focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
 super + {p,b,comma,period}
@@ -79,10 +91,6 @@ super + {o,i}
 	bspc wm -h off; \
 	bspc node {older,newer} -f; \
 	bspc wm -h on
-
-# focus or send to the given desktop
-super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
 
 #
 # preselect
