@@ -7,6 +7,6 @@
 - **Compositor:** [`picom`](https://github.com/yshui/picom)
 - **Screenshot tool:** [`flameshot`](https://flameshot.org)
 - **Hotkey daemon:** [`sxhkd`](https://github.com/baskerville/sxhkd)
-- **Font:** [`CodeNewRoman Nerd Font`](https://www.nerdfonts.com/font-downloads) 
+- **Fonts:** [`CodeNewRoman Nerd Font`](https://www.nerdfonts.com/font-downloads)  [`CommitMono Nerd Font`](https://www.nerdfonts.com/font-downloads)
 
 ## Theme founder: [@orzklv](https://github.com/orzklv)

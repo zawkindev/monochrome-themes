@@ -63,5 +63,9 @@ sudo cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
 echo -e "exec sxhkd &\nexec bspwm &" >> ~/.xinitrc
 
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+
+echo "tmux tpm plugin installed successfully"
+
 
 echo "Configs installed successfully."
