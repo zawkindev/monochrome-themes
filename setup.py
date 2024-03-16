@@ -24,7 +24,7 @@ try:
         exit()
 
     packages = ""
-    with open("requirements.txt", "r") as file:
+    with open(f"{themes[theme_index]}/requirements.txt", "r") as file:
         lines = file.readlines()
         for line in lines:
             packages += line.strip() + " "
