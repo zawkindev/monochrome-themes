@@ -1,0 +1,49 @@
+live_config_reload = true
+
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+
+[cursor]
+unfocused_hollow = false
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[env]
+TERM = "alacritty"
+WINIT_X11_SCALE_FACTOR = "1.0"
+vblank_mode = "1"
+
+[font]
+size = 18
+
+[font.bold]
+family = "Code New Roman Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "Code New Roman Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "Code New Roman Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Code New Roman Nerd Font"
+
+[window]
+decorations = "full"
+dynamic_title = true
+opacity = 0.95
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 82
+lines = 25
+
+[window.padding]
+x = 10
+y = 0
