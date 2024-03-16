@@ -1,7 +1,7 @@
 # monochrome-configs
 
 ##### orzklv:
-![""](orzklv/orzlkv.png)
+![""](orzklv/orzklv.png)
 
 #### shahruz:
 ![""](shahruz/shahruz.png)
