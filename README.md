@@ -1,6 +1,6 @@
 # monochrome-configs
 
-##### orklv:
+##### orzklv:
 ![""](orzklv/orzlkv.png)
 
 #### shahruz:
