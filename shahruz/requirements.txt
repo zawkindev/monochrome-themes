@@ -6,3 +6,4 @@ flameshot
 i3
 polybar
 picom
+tmux
