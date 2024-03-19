@@ -8,6 +8,7 @@ def configure(index):
     os.system("mkdir -p ~/.font")
     os.system("cp fonts/* ~/.fonts -r")
     os.system("cp dunst tmux wallpaper.jpg ~/.config -r")
+    os.system("git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm")
 
 
 theme_question = ""

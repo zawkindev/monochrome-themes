@@ -1,6 +1,7 @@
 alacritty
 brightnessctl
 dunst
+dmenu
 feh
 flameshot
 i3
