@@ -2,13 +2,19 @@ import os
 
 themes = ["orzklv", "shahruz"]
 
+tpm_path = "~/.config/tmux/plugins/tpm"
+
+p = os.path
+
 
 def configure(index):
     os.system(f"cp {themes[index]}/* ~/.config -r")
     os.system("mkdir -p ~/.fonts")
     os.system("cp fonts/* ~/.fonts -r")
     os.system("cp dunst tmux wallpaper.jpg ~/.config -r")
-    os.system("git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm")
+    if (p.exists(p.expanduser(tpm_path))):
+        os.system(f"rm -rf {tpm_path}")
+    os.system(f"git clone https://github.com/tmux-plugins/tpm {tpm_path}")
 
 
 theme_question = ""
