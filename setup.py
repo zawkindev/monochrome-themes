@@ -5,7 +5,7 @@ themes = ["orzklv", "shahruz"]
 
 def configure(index):
     os.system(f"cp {themes[index]}/* ~/.config -r")
-    os.system("mkdir -p ~/.font")
+    os.system("mkdir -p ~/.fonts")
     os.system("cp fonts/* ~/.fonts -r")
     os.system("cp dunst tmux wallpaper.jpg ~/.config -r")
     os.system("git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm")
