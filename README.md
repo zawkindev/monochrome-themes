@@ -17,6 +17,7 @@ Install the themes:
 ```
 python setup.py
 ```
+-----
 
 ### Thanks to [@orzklv](https://github.com/orzklv) for creating an amazing theme which is name "orzklv" in this repo.
 It encouraged me so much, when I was a just noob in linux. I am really grateful for it.
