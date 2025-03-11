@@ -5,10 +5,10 @@ dmenu
 alacritty
 feh
 flameshot
-acpilight
 xorg-server
 xorg-xsetroot
 xorg-xinit
 pipewire-pulse
 picom
 ranger
+brightnessctl
